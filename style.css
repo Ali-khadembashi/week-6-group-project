@@ -41,3 +41,28 @@
     padding: 1rem;
 
 }
+
+/* ---------------------sidebar--------------------- */
+.sidebar {
+    padding: 1.5rem;
+}
+
+.sidebar_item:nth-child(n) {
+    padding: 0.5rem 0.3rem;
+    font-size: 1.3rem;
+    color: #909193;
+}
+
+.sidebar_item {
+    display: flex;
+}
+
+.sidebar_i_home {
+    padding-right: 0.4rem;
+
+}
+
+.blue {
+    color: #376bcd;
+    font-weight: 600;
+}

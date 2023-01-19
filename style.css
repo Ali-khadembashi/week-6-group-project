@@ -97,9 +97,9 @@ body {
 }
 
 .sidebar_item:nth-child(n) {
-    padding: 0.5rem 0.3rem;
+    /* padding: 0.5rem 0.3rem;
     font-size: 1.3rem;
-    color: #909193;
+    color: #909193; */
 }
 
 .sidebar_item {
@@ -107,11 +107,36 @@ body {
 }
 
 .sidebar_i_home {
-    padding-right: 0.4rem;
-
+    /* padding-right: 0.4rem; */
 }
 
+.sidebar_text{
+    font-size: 1.3rem;
+    color: black;
+    padding-bottom: 1rem;
+}
 .blue {
     color: #376bcd;
     font-weight: 600;
+}
+.icons{
+    padding-right: .4rem;
+    color: #6e6d73;
+}
+.topmenu{
+    display: flex;
+    flex-direction: column;
+}
+.bottommenu{
+    display: flex;
+    flex-direction: row;
+}
+.bottommenu{
+    padding-top: 2rem;
+}
+.saved-reports-icon{
+    padding-left: 1rem;
+}
+.save-reports-text{
+    color: #4a4e53;
 }

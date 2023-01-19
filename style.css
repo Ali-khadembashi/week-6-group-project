@@ -41,7 +41,7 @@ body {
 }
 
 .right-col {
-    background-color: red;
+    padding: 15px;
     width: 80%;
     height: 90vh;
     flex-grow: 6;
@@ -114,4 +114,33 @@ body {
 .blue {
     color: #376bcd;
     font-weight: 600;
+}
+
+/* Table */
+tr,
+table {
+    border-collapse: collapse;
+
+    width: 100%;
+    margin-left: 20px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(236, 236, 236);
+}
+
+tbody>tr td {
+
+    padding: 0.8rem;
+}
+
+thead {
+    font-weight: 900;
+    border-top: solid 0.1rem rgb(216, 216, 216);
+    border-bottom: solid 0.1rem rgb(216, 216, 216);
+
+}
+
+thead>tr td {
+    padding: 1rem;
 }

@@ -144,3 +144,47 @@ thead {
 thead>tr td {
     padding: 1rem;
 }
+
+
+
+/* ---------------title----------- */
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.button_fillter {
+    display: flex;
+
+}
+
+.button_fillter .title_col_1,
+.button_fillter .title_col_2 {
+    padding: 1rem;
+}
+
+.title_h1 {
+    font-size: 2.5rem;
+}
+
+.title_col_1,
+.title_col_2 {
+    border: 1px solid #909193;
+    border-radius: 0.4rem;
+    margin-left: 1rem;
+}
+
+.title_col_1 span {
+    padding: 1rem 1.2rem;
+    text-align: center;
+}
+
+.title_col_1 span:first-child {
+    border-right: 1px solid #909193;
+}
+
+.padding:nth-child(n) {
+    padding: 0 0.3rem;
+}

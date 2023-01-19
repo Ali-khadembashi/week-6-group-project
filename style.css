@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-size: 16;
+    font-size: 16px;
 }
 
 .contanier {
@@ -28,7 +28,7 @@ body {
     width: 100%;
     background-color: black;
     height: 10vh;
-    min-height: 60px;
+    min-height: 50px;
 
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .header_company_name {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     padding: 1rem;
     color: #6e6d73;
 }
@@ -88,12 +88,14 @@ body {
     align-items: center;
     justify-content: flex-end;
     padding: 1rem;
+    color: #6e6d73;
 
 }
 
 /* ---------------------sidebar--------------------- */
 .sidebar {
-    padding: 1.5rem;
+    padding: 4rem 3rem;
+
 }
 
 .sidebar_item:nth-child(n) {
@@ -220,5 +222,4 @@ thead>tr td {
 
 .padding:nth-child(n) {
     padding: 0 0.3rem;
-    =======>>>>>>>fa653c497a801ab48299c7312ddaf355c12e63fb>>>>>>>806c97a56248f95e8817abc100c238c87409536a
 }
